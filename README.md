@@ -1,6 +1,6 @@
 # Reinforce
 
-My implementations of RL algorithms from ground up.
+My implementation of REINFORCE RL algorithm from ground up.
 
 ## Install
 
