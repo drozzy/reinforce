@@ -1,7 +1,9 @@
-# Portfolio
+# Reinforce
 
-Some of code I've written.
+My implementations of RL algorithms from ground up.
 
-## reinforce
+## Install
 
-My implementation of REINFORCE from ground up using pytorch.
+    conda env create -f environment.yml
+    conda activate trinkets
+    pip install -r requirements.txt
