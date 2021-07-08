@@ -12,4 +12,4 @@ My implementation of REINFORCE RL algorithm from ground up.
 
 See p.328 of Reinforcement Learning 2nd Ed. Sutton & Barto.
 
-![](reinforce.png)
+![](reinforce_fig.png)
