@@ -2,6 +2,8 @@
 
 My implementation of REINFORCE RL algorithm from ground up.
 
+To see how to implement this in [tianshou](https://github.com/thu-ml/tianshou) RL framework see my implementation here https://github.com/drozzy/reinforce_tianshou.
+
 ## Install
 
     conda env create -f environment.yml
@@ -13,3 +15,5 @@ My implementation of REINFORCE RL algorithm from ground up.
 See p.328 of Reinforcement Learning 2nd Ed. Sutton & Barto.
 
 ![](reinforce_fig.png)
+
+--Andriy Drozdyuk

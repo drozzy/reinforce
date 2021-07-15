@@ -1,4 +1,4 @@
-#%%
+#%% - Andriy Drozdyuk
 import torch, gym
 max_steps = 20_000; step = 0; lr = 0.005; γ = 0.9999
 env = gym.make('CartPole-v0')
