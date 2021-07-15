@@ -29,14 +29,14 @@ while step <= max_steps:
         EligibilityVector.append(log_prob)
 
         obs = torch.tensor(obs_, dtype=torch.float)
-
+    
     DiscountedReturns = []
-    for t in range(len((Rewards))):
+    for t in range(len(Rewards)):
         G = 0.0
         for k, r in enumerate(Rewards[t:]):
-            G += r
+            G += (γ**k)*r
         DiscountedReturns.append(G)
-    
+        
     EligibilityVector = torch.stack(EligibilityVector)        
     DiscountedReturns = torch.tensor(DiscountedReturns, dtype=torch.float)
 
