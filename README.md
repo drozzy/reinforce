@@ -3,7 +3,7 @@
 My implementation of REINFORCE RL algorithm from ground up.
 
 ## Video Explanation
-See my video about REINFORCE here: https://youtu.be/c86FBrhygQ4
+See my video here: [REINFORCE: Reinforcement Learning Most Fundamental Algorithm](https://youtu.be/c86FBrhygQ4)
 
 ## Install
 
